@@ -5,12 +5,16 @@ import Nav from './components/nav'
 import Home from './views/Home';
 import Profile from './views/Profile';
 import Single from './views/Single';
+import Login from './views/Login';
+
+
 
 
 class App extends Component {
 
   state = {
     picArray: [],
+    user: [],
   };
 
   componentDidMount() {
@@ -18,17 +22,24 @@ class App extends Component {
      this.setState({picArray: pics});
    })
   }
-
+  setUser = (data) => {
+    this.setState({user: data});
+  };
   render() {
     return (
         <Router>
         <div className="container">
           <Nav/>
-          <Route exact path="/" render={(props)=>(
+          <Route exact path="/home" render={(props)=>(
               <Home {...props} picArray={this.state.picArray}/>
           )}/>
           <Route path="/profile" component={Profile}/>
+
           <Route path="/single/" component={Single}/>
+
+          <Route exact path="/" render={(props) => (
+              <Login {...props} setUser={this.setUser}/>
+          )}/>
 
         </div>
         </Router>

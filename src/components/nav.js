@@ -11,6 +11,7 @@ const Nav = () => {
           <li>
             <Link to="/profile">Profile</Link>
           </li>
+
         </ul>
       </nav>
   );
