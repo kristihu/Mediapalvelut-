@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "eslint": "5.12.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8",
-    "prop-types": "latest"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,8 +24,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "5.12.0",
     "eslint-config-google": "^0.12.0",
     "eslint-plugin-react": "^7.12.4"
-  },
-  "homepage": "."
+  }
 }
