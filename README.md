@@ -1,6 +1,6 @@
- [AJAX-ROUTE](https://github.com/kristihu/Mediapalvelut-/tree/AJAX-Route) 
+ [AJAX-ROUTE](http://users.metropolia.fi/~kristihu/AJAX-ROUTER/) 
  
- [ROUTING&LOGIN](https://github.com/kristihu/Mediapalvelut-/tree/AJAX-STATE) 
+ [ROUTING&LOGIN](http://users.metropolia.fi/~kristihu/AJAX-STATE/) 
  
  [HTTP-A](http://users.metropolia.fi/~kristihu/http-a/)
  
