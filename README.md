@@ -8,3 +8,4 @@
  
  [Fileupload](http://users.metropolia.fi/~kristihu/fileupload/home)
 
+[Mediaplyer](http://users.metropolia.fi/~kristihu/media/home)
